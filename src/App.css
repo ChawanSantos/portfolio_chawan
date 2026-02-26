@@ -68,8 +68,11 @@ html {
     text-align: left;
 }
 
-.logoContact{
-    background-color: red;
-    margin-left: 300px;
-    
+.logoContact {
+    max-width: 100%;   /* nunca ultrapassa o tamanho da tela */
+    height: auto;      /* mantém proporção */
+    display: block;
+    margin: 0 auto;    /* centraliza horizontalmente */
 }
+
+

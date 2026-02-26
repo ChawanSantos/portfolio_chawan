@@ -11,7 +11,7 @@ export const personalInfo = {
   name: "Chawan Leal",
   title: "Developer",
   subtitle: "Analista e Desenvolvedor de Sistemas",
-  email: "chawan.leal@gmail.com",
+  email: "chawanleal.dev@gmail.com",
   location: "Vila Velha, Brasil",
   bio: "Desenvolvedor apaixonado por criar experiências digitais incríveis. Especializado em desenvolvimento web e mobile com foco em soluções inovadoras e interfaces modernas.",
   description: "Formado em Análise e Desenvolvimento de Sistemas, atuo no desenvolvimento de aplicações web e mobile, desde a concepção até a entrega. Tenho foco em performance, escalabilidade e experiência do usuário, sempre buscando transformar desafios de negócio em soluções digitais eficientes e inovadoras.",
@@ -19,9 +19,9 @@ export const personalInfo = {
 };
 
 export const socialLinks = {
-  linkedin: "https://linkedin.com/in/seu-perfil",
-  github: "https://github.com/seu-usuario",
-  instagram: "https://instagram.com/seu-perfil"
+  linkedin: "www.linkedin.com/in/chawan-dos-santos-leal-6760642ab",
+  github: "https://github.com/ChawanSantos",
+  instagram: "https://www.instagram.com/chawan.santos/"
 };
 
 export const skills = [
@@ -45,8 +45,8 @@ export const projects = [
     image: lojaImg,
     technologies: ["Wordpress", "Elementor", "PHP",],
     category: "Web",
-    demoUrl: "https://brechoeukero.com.br/",
-    githubUrl: "#",
+    // demoUrl: "https://brechoeukero.com.br/",
+    // githubUrl: "#",
     featured: true
   },
   {
@@ -56,8 +56,8 @@ export const projects = [
     image: appMobile,
     technologies: ["React Native", "Expo", "Firebase"],
     category: "Mobile",
-    demoUrl: "#",
-    githubUrl: "#",
+    // demoUrl: "#",
+    // githubUrl: "#",
     featured: true
   },
   {
@@ -67,8 +67,8 @@ export const projects = [
     image: aplicacaoWeb,
     technologies: ["React", "TypeScript", "Tailwind CSS"],
     category: "Web",
-    demoUrl: "#",
-    githubUrl: "#",
+    // demoUrl: "#",
+    // githubUrl: "#",
     featured: true
   },
   {
@@ -78,8 +78,8 @@ export const projects = [
     image: LandingPage,
     technologies: ["React", "TypeScript", "Tailwind CSS"],
     category: "Web",
-    demoUrl: "#",
-    githubUrl: "#",
+    // demoUrl: "#",
+    // githubUrl: "#",
     featured: true
   },
   {
@@ -89,8 +89,8 @@ export const projects = [
     image: SistemaGestao,
     technologies: ["React", "TypeScript", "Tailwind CSS"],
     category: "Web",
-    demoUrl: "#",
-    githubUrl: "#",
+    // demoUrl: "#",
+    // githubUrl: "#",
     featured: true
   },
   {
@@ -100,8 +100,8 @@ export const projects = [
     image: appBarberShop,
     technologies: ["Expo", "Firebase", "React Native"],
     category: "Mobile",
-    demoUrl: "#",
-    githubUrl: "#",
+    // demoUrl: "#",
+    // githubUrl: "#",
     featured: true
   },
   

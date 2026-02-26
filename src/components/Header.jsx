@@ -36,7 +36,6 @@ const Header = ({ scrolled }) => {
             onClick={(e) => scrollToSection(e, '#home')}
             className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent hover:scale-105 transition-transform"
           >
-            CL<span className="text-royal-blue">.</span>
             <img src={logoPortfolio} alt="Logo" width={100} />
           </a>
 

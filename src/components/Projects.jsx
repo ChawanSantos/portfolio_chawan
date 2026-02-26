@@ -68,7 +68,7 @@ const Projects = () => {
                 <div className={`absolute inset-0 bg-gradient-to-t from-blue-900/90 via-blue-900/50 to-transparent transition-opacity duration-300 ${
                   hoveredProject === project.id ? 'opacity-100' : 'opacity-0'
                 }`}>
-                  <div className="absolute bottom-4 left-4 right-4 flex gap-3">
+                  {/* <div className="absolute bottom-4 left-4 right-4 flex gap-3">
                     <Button
                       size="sm"
                       className="bg-white text-blue-600 hover:bg-blue-50 flex-1 transition-all duration-300 hover:scale-105"
@@ -85,7 +85,7 @@ const Projects = () => {
                       <Github className="w-4 h-4 mr-2" />
                       Código
                     </Button>
-                  </div>
+                  </div> */}
                 </div>
                 {/* Featured Badge */}
                 {project.featured && (
