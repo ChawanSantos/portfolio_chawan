@@ -14,14 +14,15 @@ export const personalInfo = {
   email: "chawanleal.dev@gmail.com",
   location: "Vila Velha, Brasil",
   bio: "Desenvolvedor apaixonado por criar experiências digitais incríveis. Especializado em desenvolvimento web e mobile com foco em soluções inovadoras e interfaces modernas.",
-  description: "Formado em Análise e Desenvolvimento de Sistemas, atuo no desenvolvimento de aplicações web e mobile, desde a concepção até a entrega. Tenho foco em performance, escalabilidade e experiência do usuário, sempre buscando transformar desafios de negócio em soluções digitais eficientes e inovadoras.",
-  resumeUrl: "#"
+  description:
+    "Formado em Análise e Desenvolvimento de Sistemas, atuo no desenvolvimento de aplicações web e mobile, desde a concepção até a entrega. Tenho foco em performance, escalabilidade e experiência do usuário, sempre buscando transformar desafios de negócio em soluções digitais eficientes e inovadoras.",
+  resumeUrl: "#",
 };
 
 export const socialLinks = {
-  linkedin: "www.linkedin.com/in/chawan-dos-santos-leal-6760642ab",
+  linkedin: "https://www.linkedin.com/in/chawan-dos-santos-leal-6760642ab/",
   github: "https://github.com/ChawanSantos",
-  instagram: "https://www.instagram.com/chawan.santos/"
+  instagram: "https://www.instagram.com/chawan.santos/",
 };
 
 export const skills = [
@@ -34,7 +35,7 @@ export const skills = [
   { name: "JavaScript", level: 95 },
   { name: "Node.js", level: 85 },
   { name: "TypeScript", level: 88 },
-  { name: "Tailwind CSS", level: 93 }
+  { name: "Tailwind CSS", level: 93 },
 ];
 
 export const projects = [
@@ -43,22 +44,23 @@ export const projects = [
     title: "Loja Virtual - WordPress",
     description: "Loja Virtual de Brechó - Sustentabilidade.",
     image: lojaImg,
-    technologies: ["Wordpress", "Elementor", "PHP",],
+    technologies: ["Wordpress", "Elementor", "PHP"],
     category: "Web",
     // demoUrl: "https://brechoeukero.com.br/",
     // githubUrl: "#",
-    featured: true
+    featured: true,
   },
   {
     id: 2,
     title: "App Mobile - Gestão De Bilhetagem Eletronica",
-    description: "Aplicativo mobile para gerenciamento de bilhetagem eletronica - app completo(notificação, relatórios, relatório de jornada, funcionamento do app sem internet, etc.).",
+    description:
+      "Aplicativo mobile para gerenciamento de bilhetagem eletronica - app completo(notificação, relatórios, relatório de jornada, funcionamento do app sem internet, etc.).",
     image: appMobile,
     technologies: ["React Native", "Expo", "Firebase"],
     category: "Mobile",
     // demoUrl: "#",
     // githubUrl: "#",
-    featured: true
+    featured: true,
   },
   {
     id: 3,
@@ -69,7 +71,7 @@ export const projects = [
     category: "Web",
     // demoUrl: "#",
     // githubUrl: "#",
-    featured: true
+    featured: true,
   },
   {
     id: 4,
@@ -80,31 +82,32 @@ export const projects = [
     category: "Web",
     // demoUrl: "#",
     // githubUrl: "#",
-    featured: true
+    featured: true,
   },
   {
     id: 5,
     title: "Sistema de Gestão",
-    description: "Sistema completo de gestão - Dashboard, Clientes, Orçamentos, Pedidos, Estoque, Financeiro, Funcionários.",
+    description:
+      "Sistema completo de gestão - Dashboard, Clientes, Orçamentos, Pedidos, Estoque, Financeiro, Funcionários.",
     image: SistemaGestao,
     technologies: ["React", "TypeScript", "Tailwind CSS"],
     category: "Web",
     // demoUrl: "#",
     // githubUrl: "#",
-    featured: true
+    featured: true,
   },
   {
     id: 6,
     title: "Aplicativo BarberPro - Gestão de Barbearia",
-    description: "Dashboard, Gestão de Barbeiros, Gestão de Serviços, Agendamentos, Controle Financeiro.",
+    description:
+      "Dashboard, Gestão de Barbeiros, Gestão de Serviços, Agendamentos, Controle Financeiro.",
     image: appBarberShop,
     technologies: ["Expo", "Firebase", "React Native"],
     category: "Mobile",
     // demoUrl: "#",
     // githubUrl: "#",
-    featured: true
+    featured: true,
   },
-  
 ];
 
 export const testimonials = [
@@ -112,21 +115,24 @@ export const testimonials = [
     id: 1,
     name: "Maria Santos",
     role: "CEO, TechStart",
-    content: "Trabalho excepcional! Entregou um produto além das expectativas, com qualidade impecável.",
-    avatar: "https://i.pravatar.cc/150?img=1"
+    content:
+      "Trabalho excepcional! Entregou um produto além das expectativas, com qualidade impecável.",
+    avatar: "https://i.pravatar.cc/150?img=1",
   },
   {
     id: 2,
     name: "Carlos Oliveira",
     role: "Founder, Digital Hub",
-    content: "Profissional extremamente competente. Cumpriu todos os prazos e entregou um sistema robusto.",
-    avatar: "https://i.pravatar.cc/150?img=2"
+    content:
+      "Profissional extremamente competente. Cumpriu todos os prazos e entregou um sistema robusto.",
+    avatar: "https://i.pravatar.cc/150?img=2",
   },
   {
     id: 3,
     name: "Ana Costa",
     role: "CTO, StartupXYZ",
-    content: "Excelente comunicação e habilidades técnicas. Recomendo fortemente!",
-    avatar: "https://i.pravatar.cc/150?img=3"
-  }
+    content:
+      "Excelente comunicação e habilidades técnicas. Recomendo fortemente!",
+    avatar: "https://i.pravatar.cc/150?img=3",
+  },
 ];
